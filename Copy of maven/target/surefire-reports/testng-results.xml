@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="2" started-at="2018-09-15T15:54:04Z" finished-at="2018-09-15T15:54:04Z">
+    <groups>
+      <group name="include-test-one">
+        <method signature="ras.testMethodOne()[pri:0, instance:ran.ras@134affc]" name="testMethodOne" class="ran.ras"/>
+      </group>
+      <group name="test-two-exclude">
+        <method signature="ras.testMethodFour()[pri:0, instance:ran.ras@134affc]" name="testMethodFour" class="ran.ras"/>
+      </group>
+      <group name="include-test-two">
+        <method signature="ras.testMethodTwo()[pri:0, instance:ran.ras@134affc]" name="testMethodTwo" class="ran.ras"/>
+      </group>
+      <group name="test-one-exclude">
+        <method signature="ras.testMethodThree()[pri:0, instance:ran.ras@134affc]" name="testMethodThree" class="ran.ras"/>
+      </group>
+    </groups>
+    <test name="Test" duration-ms="2" started-at="2018-09-15T15:54:04Z" finished-at="2018-09-15T15:54:04Z">
+      <class name="ran.ras">
+        <test-method status="PASS" signature="testMethodFour()[pri:0, instance:ran.ras@134affc]" name="testMethodFour" duration-ms="8" started-at="2018-09-15T15:54:04Z" finished-at="2018-09-15T15:54:04Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:ran.ras@134affc]" name="testMethodOne" duration-ms="1" started-at="2018-09-15T15:54:04Z" finished-at="2018-09-15T15:54:04Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodThree()[pri:0, instance:ran.ras@134affc]" name="testMethodThree" duration-ms="0" started-at="2018-09-15T15:54:04Z" finished-at="2018-09-15T15:54:04Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:ran.ras@134affc]" name="testMethodTwo" duration-ms="1" started-at="2018-09-15T15:54:04Z" finished-at="2018-09-15T15:54:04Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodFour()[pri:0, instance:ran.ras@134affc]" name="testMethodFour" duration-ms="1" started-at="2018-09-15T15:54:04Z" finished-at="2018-09-15T15:54:04Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodOne()[pri:0, instance:ran.ras@134affc]" name="testMethodOne" duration-ms="0" started-at="2018-09-15T15:54:04Z" finished-at="2018-09-15T15:54:04Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodTwo()[pri:0, instance:ran.ras@134affc]" name="testMethodTwo" duration-ms="1" started-at="2018-09-15T15:54:04Z" finished-at="2018-09-15T15:54:04Z">
+        </test-method>
+        <test-method status="PASS" signature="testMethodThree()[pri:0, instance:ran.ras@134affc]" name="testMethodThree" duration-ms="0" started-at="2018-09-15T15:54:04Z" finished-at="2018-09-15T15:54:04Z">
+        </test-method>
+      </class>
+    </test>
+  </suite>
+</testng-results>
